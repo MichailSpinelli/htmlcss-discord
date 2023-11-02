@@ -54,8 +54,39 @@ html{
     HEADER
 */
 
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+}
+
 .header-top .main-menu-container > *{
     padding: 10px;
+    margin-top: 20px;
+}
+
+.link-central *{
+    text-decoration: none;
+    color: white;
+}
+
+.login-container{
+   
+    display: inline-block;
+}
+
+.login-bottone{
+    display: inline;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.login-bottone2{
+    display: inline;
+    padding: 10px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
 }
 
 .header-top .main-menu-container > .login-container{
@@ -72,6 +103,39 @@ html{
 .header-bottom{
     padding: 50px 0px;
 }
+
+.jumbotron{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+
+.jumbotron > h1{
+    font-size: 3em;
+}
+
+.jumbotron > *{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.jumbotron > .bottoni{
+    padding-top: 30px;
+    
+}
+
+.jumbotron > .bottoni >.login-bottone{
+    margin-right: 30px;
+    color: black;
+    padding: 20px;
+}
+
+.jumbotron > .bottoni >.login-bottone2{
+    margin-left: 30px;
+    padding: 20px;
+}
+
 
 /*
     MAIN
@@ -101,76 +165,4 @@ footer{
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
-}
-
-/*
-    DEBUG
-*/
-.debug .header-top{
-    background-color: aquamarine;
-    padding: 10px 0px;
-}
-
-.debug .header-top .my-row{
-    background-color: goldenrod;
-}
-
-.debug .header-top .my-row > *{
-    border: 1px dashed black;
-}
-
-.debug .header-bottom{
-    background-color: blue;
-}
-
-.debug .header-bottom .jumbotron{
-    background-color: fuchsia;
-    border: 1px dashed black;
-    min-height: 400px;
-}
-
-.debug main section .my-row .my-col-3-5{
-    background-color: aqua;
-    border: 1px dashed black;
-    min-height: 400px;
-}
-
-.debug main section .my-row .my-col-2-5{
-    background-color: pink;
-    border: 1px dashed black;
-    min-height: 400px;
-}
-
-.debug main section .main-section-row .big-green{
-    background-color: green;
-    border: 1px dashed black;
-    min-height: 600px;
-}
-
-.debug .footer-top-main-row{
-    background-color: coral;
-}
-
-.debug .footer-top-main-row >* {
-    border: 1px dashed black;
-    min-height: 400px;
-}
-
-.debug .footer-top-secondary-row{
-    background-color: cadetblue;
-}
-
-.debug .footer-top-secondary-row >* {
-    border: 1px dashed white;
-    min-height: 400px;
-}
-
-.debug .sign-container{
-    background-color: aquamarine;
-}
-
-.debug .sign-container > *{
-    background-color: pink;
-    border: 1px dashed black;
-    padding: 5px;
 }

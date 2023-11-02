@@ -8,6 +8,10 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+h2{
+    font-size: 3em;
+}
 .container{
     max-width: 1000px;
     margin: 0 auto;
@@ -142,8 +146,15 @@ header{
 */
 
 .main-section-row{
-    padding: 40px;
+    padding: 40px 0;
 }
+
+main img{
+    max-width: 100%;
+}
+
+
+
 
 /*
     FOOTER
